@@ -10,7 +10,7 @@ public class Main {
                 "July", "August", "September", "October", "November", "December"
                 );
 
-        months.forEach(System.out::println);
+        months.forEach(string -> System.out.println(string));
 
     }
 }
