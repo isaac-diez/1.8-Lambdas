@@ -19,9 +19,14 @@ public class Main {
         listOfStrings.add("Hard work always pays off in the end.");
         listOfStrings.add("Dream big and never stop believing.");
 
-        listOfStrings.stream()
-                .filter(String -> String.contains("o")||String.contains("O"))
-                .forEach(System.out::println);
+        List<String> filteredList = listOfStrings.stream()
+                .filter(String -> String.contains("o"))
+                .toList();
+
+        for (String sentence : filteredList){
+            System.out.println(sentence);
+        }
+
 
     }
 

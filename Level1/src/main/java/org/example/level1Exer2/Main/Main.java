@@ -19,11 +19,11 @@ public class Main {
         listOfStrings.add("lingonberry");
         listOfStrings.add("lemon");
 
-        List<String> stringsWithO = listOfStrings.stream()
+        List<String> filteredList = listOfStrings.stream()
                 .filter(string -> string.contains("o") && string.length()>5)
                 .toList();
 
-        for (String word : stringsWithO) {
+        for (String word : filteredList) {
             System.out.println(word);
         }
     }
