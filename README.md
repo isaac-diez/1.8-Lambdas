@@ -5,8 +5,8 @@ Task 1.8 is about practice and learn functional programming with the use of lamb
 
 the use and implementation of Java Utils.
 
-- Level 1: [README.md](https://github.com/isaac-diez/1.8-Lambdas/tree/master/Level1/README.md)
-- Level 2: [README.md](https://github.com/isaac-diez/1.8-Lambdas/tree/master/Level2/README.md)
+- Level 1: [README.md](https://github.com/isaac-diez/1.8-Lambdas/tree/master/Level1)
+- Level 2: [README.md](https://github.com/isaac-diez/1.8-Lambdas/tree/master/Level2)
 
 💻**Stack used:**
 Project created with:
